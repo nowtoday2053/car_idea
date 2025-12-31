@@ -1,12 +1,12 @@
 # Car Price Checker
 
-A web application that helps users determine if a car is overpriced by analyzing market data and providing detailed reports. Supports two pricing check options: Quick Check (no VIN required) and Full VIN Report.
+A professional web application that helps users determine if a car is overpriced by analyzing market data and providing detailed reports. Supports two pricing check options: Quick Check and Full VIN Report - both $4.99.
 
 ## Features
 
-- **Two Pricing Options**:
-  - **Quick Check ($2.99)**: Enter car details manually - perfect when you don't have a VIN
-  - **Full VIN Report ($4.99)**: Most accurate pricing with VIN-based analysis and vehicle history
+- **Two Pricing Options** (Both $4.99):
+  - **Quick Check**: Enter car details manually - perfect when you don't have a VIN
+  - **Full VIN Report**: Most accurate pricing with VIN-based analysis and vehicle history
 - **Smart Adjustments**: Automatic price adjustments for accidents, condition, and mileage
 - **Stripe Payment Integration**: Secure one-time payment processing
 - **MarketCheck API Integration**: Real-time market value data from thousands of listings
