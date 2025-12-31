@@ -44,8 +44,10 @@ export default function VinCheckPage() {
     sessionStorage.setItem('price', cleanPrice)
     sessionStorage.setItem('checkoutPrice', '499') // $4.99 in cents
 
-    // Redirect to Stripe payment link
-    window.location.href = 'https://buy.stripe.com/00w5kEdVT3NR8GT9ZL6EU00'
+    // Redirect to Stripe payment link with success URL parameter
+    // After successful payment, user will be redirected to /results
+    const successUrl = encodeURIComponent(`${window.location.origin}/results`)
+    window.location.replace(`https://buy.stripe.com/00w5kEdVT3NR8GT9ZL6EU00?success_url=${successUrl}`)
   }
 
   const formatPrice = (value: string) => {
