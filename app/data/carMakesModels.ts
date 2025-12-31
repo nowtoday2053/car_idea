@@ -38,3 +38,5 @@ export const conditions = ['Excellent', 'Good', 'Fair', 'Poor'] as const
 
 export type Condition = typeof conditions[number]
 
+
+

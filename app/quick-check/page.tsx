@@ -77,7 +77,8 @@ export default function QuickCheckPage() {
     sessionStorage.setItem('price', cleanPrice)
     sessionStorage.setItem('checkoutPrice', '499') // $4.99 in cents
 
-    router.push('/checkout')
+    // Redirect to Stripe payment link
+    window.location.href = 'https://buy.stripe.com/eVq3cw7xv4RV3mz8VH6EU01'
   }
 
   const formatMileage = (value: string) => {

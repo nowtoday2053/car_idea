@@ -39,7 +39,7 @@ export default function ThankYouPage() {
               Check Another Car
             </button>
             <p className="text-sm text-gray-600">
-              Need help? Contact us at support@carpricechecker.com
+              Need help? Contact us at support@pricecheckcar.com
             </p>
           </div>
         </div>

@@ -635,7 +635,7 @@ export default function Home() {
                 </div>
                 <div className="flex items-center gap-2">
                   <span>✉️</span>
-                  <span>support@carpricechecker.com</span>
+                  <span>support@pricecheckcar.com</span>
                 </div>
               </div>
               <div className="mt-4 p-4 bg-gray-800 rounded-lg">
