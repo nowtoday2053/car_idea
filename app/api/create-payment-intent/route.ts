@@ -1,4 +1,4 @@
-ut this instead:import { NextRequest, NextResponse } from 'next/server'
+import { NextRequest, NextResponse } from 'next/server'
 import Stripe from 'stripe'
 
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY || '', {
@@ -17,7 +17,7 @@ export async function POST(req: NextRequest) {
     }
 
     const body = await req.json()
-    const { amount = 399 } = body // Default to $3.99
+    const { amount = 499 } = body // Default to $4.99
 
     // Validate amount
     if (!amount || amount < 50) {
